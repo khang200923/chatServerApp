@@ -1,0 +1,38 @@
+p, input, button, #messages {
+    font-family: "Consolas", monospace;
+}
+
+#messages p, br .soft {
+    margin: 0;
+    padding: 0;
+}
+
+#messages {
+    max-width: 100%;
+    max-height: 70vh;
+    overflow: auto;
+}
+
+.msgIDOrigin:hover {
+    background-color: black;
+    color: lightblue;
+    cursor: pointer;
+}
+
+.msgIDRedirect:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.msgIDOrigin, .msgIDRedirect {
+    color: darkgoldenrod;
+}
+
+.admin {
+    background-color:gold;
+}
+
+.system {
+    background-color:lightgreen;
+}
